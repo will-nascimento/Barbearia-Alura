@@ -99,12 +99,9 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+    
     .caixa, .produtos{
         width: auto;
-    }
-
-    .mapa-conteudo, .principal, .video {
-        margin: 10px;
     }
 
     .caixa {
@@ -117,6 +114,10 @@ footer {
         max-width: fit-content;
     }
 
+    .caixa ul {
+        padding: 10px 0 ;
+    }
+
     h1 {
         text-align: center;
     }
@@ -125,24 +126,30 @@ footer {
         position: static;
     }
 
-    .caixa ul {
-        padding: 10px 0 ;
-    }
-
-    .utensilios {
-        width: 100px;
-        float: left;
-    }
-
-    .conteudo-beneficios, .imagem-beneficios {
+    .produtos {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90%;
-        margin: 10px;
+        width: 100%;
+        /* background-color: #088C19; */
+        margin: 0;
+
     }
 
-    .lista-beneficios {
-        width: 100%;
+    .produtos li {
+        /* display: inline-block; */
+        width: 90%;
+        /* background-color: #C78C19; */
+        margin: 20px 0%;
+        /* vertical-align: top; */
+        /* margin: 0 1.5%; */
+        /* padding: 30px 20px; */
+        /* box-sizing: border-box; */
+        /* border: 2px solid #000000; */
+        /* border-radius: 10px; */
     }
+
+    /* .lista-beneficios {
+        width: 100%;
+    } */
 }
