@@ -97,3 +97,52 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
+
+@media screen and (max-width: 480px) {
+    .caixa, .produtos{
+        width: auto;
+    }
+
+    .mapa-conteudo, .principal, .video {
+        margin: 10px;
+    }
+
+    .caixa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caixa img {
+        max-width: fit-content;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .caixa ul {
+        padding: 10px 0 ;
+    }
+
+    .utensilios {
+        width: 100px;
+        float: left;
+    }
+
+    .conteudo-beneficios, .imagem-beneficios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 10px;
+    }
+
+    .lista-beneficios {
+        width: 100%;
+    }
+}
