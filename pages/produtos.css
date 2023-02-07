@@ -61,6 +61,7 @@ nav a:hover {
 
 .produtos li:hover {
     border-color: #C78C19;
+    padding: 30px 10px;
 }
 
 .produtos li:active {
@@ -103,29 +104,29 @@ footer {
     .caixa, .produtos{
         width: auto;
     }
-
+    
     .caixa {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
+    
     .caixa img {
         max-width: fit-content;
     }
-
+    
     .caixa ul {
         padding: 10px 0 ;
     }
-
+    
     h1 {
         text-align: center;
     }
-
+    
     nav {
         position: static;
     }
-
+    
     .produtos {
         display: flex;
         flex-direction: column;
@@ -133,7 +134,7 @@ footer {
         width: 100%;
         margin: 0;
     }
-
+    
     .produtos li {
         width: 80%;
         margin: 20px 0%;
